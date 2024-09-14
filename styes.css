@@ -1,0 +1,814 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+}
+
+/* Common Values */
+
+:root {
+  --header-BG: #ffffff;
+  --header-text-color: #000;
+  --button-bg: #00baf2;
+  --BG-color-2: #e0f5fd;
+  --border: 2px solid red;
+}
+
+/* Header section styling start */
+ 
+header {
+  width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  font-size: 17px;
+  color: #000;
+  font-weight: 600;
+  margin-right: 28px;
+}
+
+.sign-inbutton {
+  display: flex;
+
+  align-items: center;
+  background: var(--button-bg);
+
+  border-radius: 20px;
+  width: 110px;
+  justify-content: flex-end;
+  margin: 0 30px 0;
+}
+
+.sign-inbutton span {
+  cursor: pointer;
+  /* background:var(--button-bg) ; */
+
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.sign-inbutton img {
+  height: 35px;
+  width: 30px;
+}
+/* Header section styling end */
+
+/* Travel-section styling start */
+
+
+.travel-section {
+  background: #e0f5fd;
+  height: 400px;
+  padding: 50px 0;
+}
+.travelling-through {
+  padding: 0 0 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.travelling-through img {
+  height: 25px;
+  width: 25px;
+  margin-left: 20px;
+}
+
+.travelling-through span {
+  padding: 5px 0;
+  font-size: 14px;
+  color: #101010;
+  margin-right: 30px;
+  font-weight: 500;
+}
+
+.travel {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+
+.Ptym-tavel img {
+  height: 30px;
+  width: 120px;
+}
+
+
+.Flight-searching {
+  margin-top: 20px;
+  display: flex;
+}
+
+.Flight-searching img {
+  margin-right: 20px;
+}
+
+.flight-booking {
+  width: 180px;
+  margin-right: 20px;
+}
+
+.flight-booking span {
+  font-size: 12px;
+  color: hsla(0, 0%, 6%, 0.54);
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.flight-booking h4 {
+  color: #101010;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.flight-booking p {
+  margin-top: 8px;
+  border-bottom: 1px solid hsla(0, 0%, 6%, 0.13);
+}
+
+.flight-booking .city {
+  color: #101010;
+  font-weight: 400;
+}
+
+.flight-booking .addreturn {
+  color: #00baf2;
+}
+
+.bookings {
+  border: 1px solid #d3d3d3;
+  height: 220px;
+  margin: 10px 200px 0;
+  padding: 25px 35px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+.Flight-searching button {
+  width: 170px;
+  background: #00baf2;
+  color: #fff;
+  font-size: 16px;
+  height: 52px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 8px;
+  padding: 0 12px;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  cursor: pointer;
+}
+
+.other-services {
+  height: 70px;
+  margin-top: 10px;
+  display: flex;
+  /* padding: 20px; */
+  align-items: center;
+}
+
+.other-services p {
+  margin-right: 20px;
+  border: 1px solid hsla(0, 0%, 6%, 0.13);
+  padding: 7px 12px;
+  border-radius: 50px;
+  margin: 0 8px 0 0;
+  cursor: pointer;
+  font-size: 14px;
+  color: hsla(0, 0%, 6%, 0.54);
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.other-services span {
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+/* Travel-section styling end */
+
+
+/* Reacharge and Pay bills section styling start */
+
+.pay-bills {
+  height: 350px;
+  background: #00baf2;
+  padding: 60px 0;
+}
+
+.bills {
+  height: 250px;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.bills h1 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.bills-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service {
+  align-items: center;
+}
+
+.bills-icons .service img {
+  width: 64px;
+  margin-bottom: 17px;
+  border-radius: 100%;
+}
+
+.bills h3 {
+  color: #fff;
+}
+
+.service1 img {
+  margin-left: 20px;
+}
+
+.service1 h3 {
+  margin-left: 20px;
+}
+
+/* Reacharge and Pay bills section styling end */
+
+
+
+/* Pay-upi section styling start */
+
+.payupi {
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 0 0;
+  margin-bottom: 50px;
+}
+
+.upi-content {
+  margin-left: 120px;
+}
+.upi-content h1 {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 65px;
+  margin: 50px 0 0;
+}
+.upi-content h3 {
+  padding-top: 10px;
+}
+.upi-content img {
+  height: 80px;
+}
+
+.downloadpaytm {
+  margin: 50px 0;
+  padding: 0 24px;
+  height: 44px;
+  color: #fff;
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.downloadpaytm i {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+button:hover {
+  background: white;
+  color: #000;
+}
+
+.upi_image img {
+  height: 500px;
+}
+
+/* Pay-upi section styling end */
+
+
+/* Paytym-payment section styling start */
+
+.paytm-payment {
+  background: #f5f7fa;
+  height: auto;
+  padding: 110px;
+  align-items: center;
+}
+
+.paytm-payment h1 {
+  font-size: 48px;
+  color: #000;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 30px;
+ 
+}
+
+.white-section1 {
+  height: 650px;
+  background: #ffffff;
+  padding: 80px 130px 80px;
+  display: flex;
+  border-radius: 20px;
+}
+
+
+.white-section1 div h2 {
+  margin-top: 48px;
+  width: 390px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.white-section1 div h3 {
+  padding: 20px 0 0;
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.white-section1 div p {
+  display: flex;
+  align-items: center;
+}
+.white-section1 div p span {
+  font-size: 16px;
+  font-weight: 700;
+}
+.white-section1 div p img {
+  height: 70px;
+  width: 80px;
+  margin-right: 10px;
+}
+.paytm-payment img {
+  height: 450px;
+  width: 500px;
+}
+
+.white-section2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.HDFC-Bank {
+  padding: 60px 60px 0;
+  width: 600px;
+  border-radius: 20px;
+  background: #ffffff;
+}
+
+.HDFC-Bank img {
+  height: 80px;
+  width: 200px;
+}
+.HDFC-Bank h2 {
+  padding-top: 28px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.HDFC-Bank h3 {
+  margin: 20px 0 6px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.HDFC-Bank p {
+  margin: 0 0 20px;
+  font-size: 12px;
+  color: #75767f;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.HDFC-Bank p a {
+  color: #00baf2;
+  margin: 0 0 0 4px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.white-section2 .Hdfc-card {
+  height: 300px;
+  width: 470px;
+}
+
+.HDFC-Bank .sbi-card {
+  width: 200px;
+  height: 20px;
+}
+/* Paytym-payment section styling end */
+
+
+/* Paytym-insurance section styling start */
+
+
+.paytm-insurance {
+  height: 600px;
+  padding: 80px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.insurance-booking {
+  width: 45%;
+}
+.paytm-insurance .insurance-booking img {
+  width: 185px;
+}
+
+.paytm-insurance .insurance-booking span {
+  padding: 24px 0 30px;
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.btn {
+  background: #002970;
+  padding: 16px 24px;
+  border-radius: 25px;
+  width: 140px;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.insurance-booking h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  margin-top: 70px;
+}
+
+.paytm-insurance img {
+  width: 480px;
+}
+
+.paytm-money {
+  background: #f5f7fa;
+  position: relative;
+  padding: 0;
+}
+
+.paytm-mny {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  z-index: 1;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.paytm-mny .insurance-booking img {
+  height: 54px;
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.paytm-money .paytm-money-bg {
+  width: 100%;
+  height: 580px;
+  background: #f5f7fa;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+.paytm-mny .insurance-booking h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.paytm-mny .insurance-booking span {
+  font-size: 20px;
+}
+
+
+/* Paytym-insurance section styling end */
+
+/* Finacial-service-section styling start */
+
+.financial-services {
+  padding: 80px 150px;
+}
+
+.finance {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.finance img {
+  width: 450px;
+}
+
+.finance-content {
+  width: 45%;
+}
+
+.financial-services h1 {
+  /* width: 1170px; */
+  margin: 0 auto 35px;
+  font-size: 48px;
+  color: #000;
+  font-weight: 700;
+}
+
+.finance-content h2 {
+  margin: 42px 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.finance-content span {
+  display: block;
+  margin-bottom: 45px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.finance .finance-content img {
+  height: 80px;
+  width: 220px;
+}
+
+/* Finacial-service-section styling end */
+
+/*Business-service-section styling start */
+
+.business {
+  background: #f5f7fa;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0 80px 120px;
+  border-radius: 10px;
+}
+
+.business-content h2 {
+  margin-top: 48px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+}
+
+.business-content span {
+  padding: 24px 0 30px;
+  display: block;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 26px;
+}
+.business img {
+  width: 450px;
+}
+
+/*Business-service-section styling end */
+
+.business-tools {
+  padding: 0 140px;
+  margin-top: 50px;
+}
+
+.business-tools h1 {
+  padding-bottom: 89px;
+  width: 480px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.business-tool {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 20px; */
+}
+
+.business-tool div {
+  margin-right: 20px;
+  width: 300px;
+}
+
+.business-tool div img {
+  height: 240px;
+  width: 220px;
+}
+
+.business-tool div h2 {
+  padding: 40px 0 20px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.business-tool div p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+
+.business-tool div span {
+  font-weight: 600;
+}
+
+/* paytm-travel-section styling start */
+
+.paytm-travel {
+  margin: 120px auto 0;
+}
+
+.paytm1 {
+  width: 1100px;
+  height: 700px;
+  margin: 0 auto;
+  padding: 60px 0 60px 20px;
+}
+
+.pt-mny {
+  display: flex;
+}
+.pt-mny div {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.pt-mny .colored-div {
+  background: #4ccff6;
+  border-radius: 10px;
+  width: 150px;
+  height: 250px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.pt-mny .colored-div:hover {
+  background-color: #00baf2;
+}
+
+.colored-div img {
+  width: 140px;
+  height: 160px;
+  border-radius: 10px;
+}
+
+.colored-div span {
+  padding: 16px 0px;
+  display: block;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.ptmny-app {
+  margin-bottom: 70px;
+}
+
+.ptmny-app img {
+  width: 160px;
+  height: 60px;
+  margin-bottom: 50px;
+}
+
+.pt-mny .ptmny-app p {
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.pt-mny .ptmny-app a {
+  display: block;
+  padding-top: 10px;
+  font-size: 17px;
+  color: #00baf2;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.colored-div .small-image {
+  margin: 30px 0 24px;
+  width: 72px;
+  height: 72px;
+}
+
+/* paytm-travel-section styling end */
+
+
+/* Additional-info section styling start */
+
+.additional-info {
+  margin-top: 120px;
+  background: #f5f7fa;
+  padding: 90px 0 0;
+}
+
+.download-paytm {
+  width: 1260px;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 2px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+.content1 {
+  width: 640px;
+  height: 60px;
+  display: flex;
+}
+
+.download-paytm .content1 span {
+  width: 500px;
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.download-paytm .content1 img {
+  margin-right: 10px;
+}
+
+.content2 img {
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+/* Additional-info section styling start */
+
+.additional-info2 {
+  margin: 70px auto;
+  width: 1260px;
+}
+
+.additional-info2 .info {
+  padding: 15px 0;
+  display: flex;/
+}
+
+.additional-info2 .info img {
+  margin-right: 15px;
+}
+
+.additional-info2 .info span {
+  font-size: 14px;
+  color: #505050;
+  font-weight: 700;
+  padding-right: 6px;
+}
+
+.additional-info2 .info::after {
+  content: "";
+  -ms-flex: 1 1;
+  flex: 1 1;
+  border-bottom: 2px solid #ccc;
+}
+
+.footer::before {
+  background-color: #00baf2;
+  height: 12px;
+  content: "";
+  display: block;
+  margin-top: 180px;
+}
+
+.footer::after {
+  background-color: #002970;
+  height: 12px;
+  content: "";
+  display: block;
+}
+/* Additional-info section styling end */
